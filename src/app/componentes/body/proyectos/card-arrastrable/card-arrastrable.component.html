@@ -1,0 +1,12 @@
+<!-- card con imagen -->
+
+<div class="container centrar">
+    <div *ngFor="let proyecto of listaProyectos" class="card format flotar desplegar" cdkDrag (cdkDragEnded)="onDropped($event)">
+        <img class="card-img-top" src="{{proyecto['imagen']}}" alt="Card image cap">
+        <div class="card-body" hidden data-body>
+            <h5 class="card-title">{{proyecto['nombre']}}</h5>
+            <p class="card-text ">{{proyecto['descripcion']}}</p>
+            <button class="btn btn-primary">Ver más</button>
+        </div>
+    </div>
+</div>

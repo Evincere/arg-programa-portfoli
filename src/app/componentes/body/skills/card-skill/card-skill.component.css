@@ -1,0 +1,13 @@
+#card-skill {
+    width: 150px;
+    height: 230px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,28 @@
+* {
+    transition-property: all;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.format {
+    width: 250px;
+}
+
+.flotar {
+    float: left;
+    position: absolute;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.desplegar {
+    transition-duration: 0.7s;
+}
