@@ -15,6 +15,8 @@ import { CardSkillComponent } from './componentes/body/skills/card-skill/card-sk
 import { AcordeonComponent } from './componentes/body/formacion/acordeon/acordeon.component';
 import { CardArrastrableComponent } from './componentes/body/proyectos/card-arrastrable/card-arrastrable.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponent } from './componentes/login/login.component';
+import { HeroComponent } from './componentes/cabecera/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContactoComponent,
     CardSkillComponent,
     AcordeonComponent,
-    CardArrastrableComponent
+    CardArrastrableComponent,
+    LoginComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
